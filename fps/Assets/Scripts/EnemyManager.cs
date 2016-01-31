@@ -12,8 +12,6 @@ public class EnemyManager : MonoBehaviour
     {
         // Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
         InvokeRepeating("Spawn", spawnTime, spawnTime);
-        spawnPoints[0].position = new Vector3(11.6f, -1.4f, 13.7f);
-        spawnPoints[1].position = new Vector3(5.9f, -0.8f, -16f);
     }
 
 
